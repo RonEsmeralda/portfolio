@@ -1,0 +1,144 @@
+body {
+    margin:0;
+    color: #40514E;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.profile p  {
+    line-height: 2;
+    width:30%;
+    margin: auto;  
+}
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+a:hover {
+    color: #EAF6F6;
+}
+h1 {
+    font-size: 5.625rem;
+    margin:50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color:#66BFBF;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size:  2.5rem;
+    color:#66BFBF;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top:100px;
+}
+.middle-container {
+    margin:100px 0;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding:35px;
+}
+.bottom-container a{
+    padding:25px;
+}
+.web {
+    text-decoration: underline;
+}
+.bottom-cloud {
+    position: absolute;
+    left:250px;
+    bottom:300px;
+}
+.top-cloud {
+    position: absolute;
+    top:40px;
+    right:300px;
+}
+@media 
+  (-webkit-min-device-pixel-ratio: 2), 
+  (min-resolution: 192dpi) { 
+    .mountain {
+        width: 100%;
+    }
+}
+
+.skill-row {
+    width:50%;
+    margin:100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.html-image {
+    width:25%;
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10%;
+}
+.css-image {
+    width:25%;
+    height: 150px;
+    float: right;
+    margin-left: 30px;
+    border-radius: 10%;
+}
+.profile-pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+hr {
+    border-style:none;
+    border-top-style:dotted;
+    border-color: #EAF6F6;
+    border-width: 5px;   
+    width:5%;
+    margin:100px auto ;
+}
+.credit {
+    margin: 0;
+    padding-top: 35px;
+    color:#EAF6F6;
+    font-size: 13px;
+}
+.myButton {
+	background:linear-gradient(to bottom, #66bfbf 5%, #408c99 100%);
+	background-color:#66bfbf;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	padding:10px 26px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #66bfbf 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.contact-me h3{
+    margin: 35px auto;
+}
+.contact-me p {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.contact-me h2 {
+    margin-top:75px;
+}
+.contact-me a {
+    margin-bottom: 50px;
+}
+
